@@ -27,7 +27,7 @@ namespace ReverseString
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the string");
+            Console.WriteLine("Enter the string you want");
             string str = Console.ReadLine();
             Reverse obj = new Reverse();
             obj.reverseStr(str);
